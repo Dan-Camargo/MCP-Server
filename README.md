@@ -77,3 +77,14 @@ result = await get_transcript("dQw4w9WgXcQ")
 # Using a different language
 result = await get_transcript("https://www.youtube.com/watch?v=dQw4w9WgXcQ", lang="ko")
 ```
+## Expected Results
+
+Here is an example of something you could do with it:
+
+Prompt: "Based on the portuguese transcription of this video https://www.youtube.com/watch?v=5Kwb693Dlqs
+create a message from the narrator of the video "Mano Deyvin" as he was angry with programmers that code in front of their windows with sun on their faces"
+
+![image](https://github.com/user-attachments/assets/50090924-84c9-4ed9-a4d1-2cb38c9957ac)
+
+As expected, Claude got the transcription, and based on it, created a "persona" of Mano Deyvin, and generated an accurate message impersonating him.
+@@
