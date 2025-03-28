@@ -5,7 +5,7 @@ A Model Context Protocol (MCP) server that provides tools for weather informatio
 ## Features
 
 ### Weather Tools
-- Get active weather alerts for specific states
+- Get active weather alerts for specific >>>UNITED STATES<<< states
 - Get detailed weather forecasts for any location using coordinates
 - Real-time data from National Weather Service API
 
@@ -77,10 +77,3 @@ result = await get_transcript("dQw4w9WgXcQ")
 # Using a different language
 result = await get_transcript("https://www.youtube.com/watch?v=dQw4w9WgXcQ", lang="ko")
 ```
-
-## Dependencies
-
-- fastmcp>=0.4.1
-- httpx>=0.28.1
-- mcp[cli]>=1.5.0
-- youtube-transcript-api>=0.6.2
