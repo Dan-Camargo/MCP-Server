@@ -25,10 +25,7 @@ pip install -e .
 
 ## Usage
 
-Run the server:
-```bash
-python combined_server.py
-```
+- Connect it to your Client (AI) like Claude passing the path of the server and the command: "uv"
 
 The server provides the following tools:
 
